@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    padding-top: 80px;
+    background-image: url(the\ bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+
+}
+
+
+.navbar .nav-link {
+  color: white;
+}
+
+.project-img{
+    height: 200px;
+    object-fit: cover;
+}
+
+#skills, #projects, #contact, #home {
+    scroll-margin-top: 90px;
+}
+#projects a{
+    text-decoration:none;
+    color: inherit;
+}
+
+
+
+

@@ -1,0 +1,8 @@
+{
+    "rewrites": [
+        {
+            "source": "/(.*)",
+            "destination": "/Task_7.html"
+        }
+    ]
+}

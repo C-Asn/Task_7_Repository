@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in</title>
+    <link rel="stylesheet" href="design.css">
+</head>
+<body>
+    <div class="container">
+        <h2 class="label">Login Form</h2>
+        <form class="form" onsubmit="goToPortfolio(event)">
+            <label class="label">Username</label>
+            <input type="text" class="input" placeholder="Enter your username">
+
+            <label class="label">Password</label>
+            <input type="password" class="input" placeholder="Enter your Password">
+
+            <p class="text">
+         <a href="forgetpassword.html" class="link"> Forgot Password?</a>
+         
+
+        </p>
+
+            <button class="btn">Login</button>
+        </form>
+        
+        <p class="text">
+            Don't have an account yet? <a href="Task_5.html" class="link">Register</a>
+
+        </p>
+        
+    </div>
+    <script >
+        function goToPortfolio(event){
+            event.preventDefault();
+            window.location.href = "Task_7.html";
+        }
+    </script>
+
+</body>
+</html>
